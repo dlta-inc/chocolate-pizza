@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yummy Chocolate Pizza</title>
+  </head>
+<!--Grouping all the content of the webpage into Divs to allow for easy styling later-->
+  <body>
+    <div class='page'>
+      <header>
+        <div class=logo>
+          <img src = './lab-assets/logo.png' class='logopng'>
+          <hgroup>
+            <h2 class='bizname'>Delicious</h2>
+            <h6 class='slogan'>THE BEST FOOD BLOG ON THE WEB</h6>
+          </hgroup>
+        </div>
+
+        <div class='navIcons'>
+          <img src = './lab-assets/print-icon.png' class='icons'>
+          <img src = './lab-assets/fb-icon.png' class='icons'>
+          <img src = './lab-assets/flic-icon.png' class='icons'>
+          <img src = './lab-assets/gp-icon.png' class='icons'>
+          <img src = './lab-assets/insta-icon.png' class='icons'>
+          <img src = './lab-assets/mail-icon.png' class='icons'>
+          <img src = './lab-assets/rss-icon.png' class='icons'>
+          <img src = './lab-assets/twit-icon.png' class='icons'>
+        </div>
+      </header>
+
+      <div class='content'>
+        <div class='articleName'>
+          <hgroup>
+            <h3>Chocolate Pizza</h3>
+            <h5>DATE<h5>
+          </hgroup>
+        </div>
+
+        <div class='mainpic'>
+          <img src:'./assets/choco-pizza.png' class='yum' id='YUM'>
+        </div>
+
+        <article>
+          <p>Proin faucibus nec turpis vitae ullamcorper. Aenean sed magna dictum, fringilla justo nec, tincidunt justo. Pellentesque maximus quam metus, egestas scelerisque risus rhoncus eu. </p>
+
+          <p>Nullam dapibus, ipsum ac finibus tempus, augue massa dictum risus, eget mattis nisi ipsum at elit. Morbi condimentum libero et massa mollis, et congue augue pulvinar. Suspendisse faucibus aliquam mauris, ac aliquet lorem cursus in. </p>
+
+          <p>Donec pellentesque lacus id est bibendum, id pellentesque quam molestie. Maecenas aliquet laoreet velit vitae tempus. Mauris tellus dolor, aliquam nec iaculis a, vulputate vitae orci. Ut molestie eros vel quam rhoncus, id dapibus felis scelerisque. Nullam semper convallis mi maximus porta. Cras eget dapibus sem, nec ultricies odio. Morbi a velit nulla. In neque dui, sagittis varius suscipit tristique, scelerisque vel urna. </p>
+        </article>
+<!--Adding columns to house the recipie ingredients checkboxes to allow me to sytle it easier in my next draft.  I then put each checkbox into a table, again to allow me to style it later-->
+        <div class='column1of2'>
+          <table>
+            <tr>
+              <td><input type='checkbox' name='ingredients'/>1 1/2 cups milk</td>
+            </tr>
+            <tr>
+              <td><input type='checkbox' name='ingredients'/>1/2 cup sugar</td>
+            </tr>
+            <tr>
+              <td><input type='checkbox' name='ingredients'/>1/2 tsp pink
+              salt</td>
+            </tr>
+            <tr>
+              <td><input type='checkbox' name='ingredients'/>1lb Black Mission Figs</td>
+            </tr>
+            <tr>
+              <td><input type='checkbox' name='ingredients'/>1/2 cup brown sugar</td>
+            </tr>
+            <tr>
+              <td><input type='checkbox' name='ingredients'/>4 tbsp water</td>
+            </tr>
+        </div>
+
+        <div class='column2of2'>
+            <tr>
+              <td><input type='checkbox' name='ingredients'/>1 1/2 cups heavy cream</td>
+            </tr>
+            <tr>
+              <td><input type='checkbox' name='ingredients'/>1/3 cup mascarpone</td>
+            </tr>
+            <tr>
+              <td><input type='checkbox' name='ingredients'/>2 egg yokes</td>
+            </tr>
+            <tr>
+              <td><input type='checkbox' name='ingredients'/>1 lemon, juiced</td>
+            </tr>
+            <tr>
+              <td><input type='checkbox' name='ingredients'/>2 tbsp butter</td>
+            </tr>
+            <tr>
+              <td><input type='checkbox' name='ingredients'/>1 cup honey roasted pecans, roughly chopped</td>
+            </tr>
+          </div>
+        </table>
+
+        <div class='end'>
+          <div class=author>
+            <img src = './lab-assets/van-pic.png' class='authorpic'>
+            <hgroup>
+              <h4 class='who'>Vanessa Stevenson</h4>
+              <h6 class='whoami'>Food enthusiast, photography fan.  Add a pinch of raw foodism and that's pretty much who i am</h6>
+            </hgroup>
+          </div>
+          <a href='mailto:?&subject=Your going to LOVE this'>SHARE RECIPE</a>
+        </div>
+      </div>
+
+      <footer>
+        <img src = './lab-assets/small-logo.png' class='icons'>
+        <p>Delicious &copy; - All Rights Reserved.<br>
+          Proudly published with Ghost.</p>
+      </footer>
+  </div>
+  </body>
+</html>
