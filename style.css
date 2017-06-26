@@ -1,0 +1,72 @@
+body {
+  margin: 0 auto;
+  padding: 100px;
+}
+
+header, footer {
+  margin: 1%;
+}
+
+div.page {
+  border: solid black;
+  margin: 0 auto;
+  padding: 50px 100px;
+}
+
+.logopng {
+  float: left;
+}
+
+p {
+  display: inline;
+}
+
+.bizname{
+  font-size: 25px;
+  margin-left: 2%;
+}
+
+.slogan{
+  font-size: 5px;
+  margin-left: 2%;
+}
+
+.socialmedia {
+  position: absolute;
+  top: 140px;
+  right: 210px;
+}
+
+.content {
+
+}
+
+.articleName{
+  margin: 30px 0px;
+}
+
+.yum {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  padding: 5%;
+  margin: 30px 0px;
+}
+
+.ingredientslist {
+  background-image: url('lab-assets/list-bg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.author {
+  margin: 30px 0px;
+}
+
+.authorpic {
+  float: left;
+  margin-right: 10px;
+}
